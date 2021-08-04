@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(MainActivity.this, "Memilih : " +negara[i],
-                        Toast.LENGTH_LONG.show ();
+                        Toast.LENGTH_LONG.show();
             }
         });
             }
